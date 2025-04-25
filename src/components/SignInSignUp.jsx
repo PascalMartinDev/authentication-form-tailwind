@@ -9,6 +9,33 @@ const SignInSignUp = () => {
           <h2 className="text-3xl font-extrabold text-yellow-300 text-center mb-2 -tracking-tight">
             Create an Account
           </h2>
+          <p className="text-blue-200 text-center mb-8">
+            Join our community tday
+          </p>
+          <form className="mt-8 space-y-5">
+            <div className="group">
+              <input
+                type="text"
+                placeholder="Full Name"
+                className="w-full p-4 bg-blue-900/30 rounded-xl border border-blue-700/50 text-white placeholder-blue-300/50 outline-none focus:ring-2 focus:ring-yellow-400/50 focus:border-transparent transition-all"
+              />
+            </div>
+            <div className="group">
+              <input
+                type="email"
+                placeholder="Email Address"
+                className="w-full p-4 bg-blue-900/30 rounded-xl border border-blue-700/50 text-white placeholder-blue-300/50 outline-none focus:ring-2 focus:ring-yellow-400/50 focus:border-transparent transition-all"
+              />
+            </div>
+            <div className="group">
+              <input
+                type="password"
+                placeholder="Password"
+                className="w-full p-4 bg-blue-900/30 rounded-xl border border-blue-700/50 text-white placeholder-blue-300/50 outline-none focus:ring-2 focus:ring-yellow-400/50 focus:border-transparent transition-all"
+              />
+            </div>
+            <button className="group w-full p-4 mt-6 bg-gradient-to-r from-yellow-500 to-yellow-400 text-blue-950 rounded-xl font-bold shadow-lg hover:shadow-yellow-400/40 overflow-hidden transform hover:-translate-y-.5 hover:scale-105 hover:translate-z-20 transition-all duration-300 relative"></button>
+          </form>
         </div>
       </div>
     </div>
