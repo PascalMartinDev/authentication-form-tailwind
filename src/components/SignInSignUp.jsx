@@ -4,8 +4,14 @@ const SignInSignUp = () => {
   const [isSignUp, setIsSignUp] = useState(false);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-950 via-blue-900 to-blue-800 p-8">
-      <div className="@container max-w-md w-full p-8 bg-blue-950/30 rounded-2xl shadow-[0_20px_50px_rgba(0,_29,_61,_0.7)] backdrop-blur-xl border border-blue-800/50 relative">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-950 via-blue-900 to-blue-800 p-8 relative">
+      <div className="absolute top-0 left-0 w-full h-full">
+        <div className="absolute top-[10%] left-[15%] w-72 h-72 rounded-full bg-radial from-yellow-400/40 to-transparent blur-3xl animate-pulse-slow"></div>
+        <div className="absolute bottom-[20%] right-[15%] w-84 h-84 rounded-full bg-radial from-yellow-400/40 to-transparent blur-3xl animate-pulse-slow animation-delay-2000"></div>
+        <div className="absolute top-[45%] left-[50%] -translate-x-1/2 w-84 h-84 rounded-full bg-radial from-yellow-400/40 to-transparent blur-3xl animate-pulse-slow animation-delay-3000"></div>
+      </div>
+
+      <div className="@container max-w-md w-full p-8 bg-blue-950/30 rounded-2xl shadow-[0_20px_50px_rgba(0,_29,_61,_0.7)] backdrop-blur-xl border border-blue-800/50 relative animate-fade-in">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-800/20 to-transparent rounded-2xl"></div>
         <div className="relative">
           <h2 className="text-3xl font-extrabold text-yellow-300 text-center mb-2 -tracking-tight">
