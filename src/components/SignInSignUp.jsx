@@ -47,6 +47,22 @@ const SignInSignUp = () => {
               Sign In
             </span>
           </p>
+          <div className="mt-8 pt-6 border-t border-blue-800/30">
+            <p className="text-blue-200/70 text-center test-sm mb-4">
+              Or continue with
+            </p>
+            <div className="flex justify-center space-x-6">
+              <button className="p-3 bg-blue-900/40 rounded-lg hover:bg-blue-800/50 transition-colors text-yellow-400 hover:text-yellow-300">
+                <i className="bx bxl-google text-2xl"></i>
+              </button>
+              <button className="p-3 bg-blue-900/40 rounded-lg hover:bg-blue-800/50 transition-colors text-yellow-400 hover:text-yellow-300">
+                <i className="bx bxl-apple text-2xl"></i>
+              </button>
+              <button className="p-3 bg-blue-900/40 rounded-lg hover:bg-blue-800/50 transition-colors text-yellow-400 hover:text-yellow-300">
+                <i className="bx bxl-facebook text-2xl"></i>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
