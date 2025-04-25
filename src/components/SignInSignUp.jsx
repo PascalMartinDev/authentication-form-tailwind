@@ -41,6 +41,12 @@ const SignInSignUp = () => {
               <span className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-yellow-300 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></span>
             </button>
           </form>
+          <p className="mt-8 text-blue-200/80 text-center">
+            Already have an account?
+            <span className="text-yellow-300 font-bold cursor-pointer hover:text-yellow-400 ml-1 transition-colors">
+              Sign In
+            </span>
+          </p>
         </div>
       </div>
     </div>
