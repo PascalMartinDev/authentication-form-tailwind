@@ -48,12 +48,13 @@ const SignInSignUp = () => {
             </button>
           </form>
           <p className="mt-8 text-blue-200/80 text-center">
-            Already have an account?
+            {isSignUp ? "Already have an account?" : "Don't have an account?"}
+
             <span
               className="text-yellow-300 font-bold cursor-pointer hover:text-yellow-400 ml-1 transition-colors"
               onClick={() => setIsSignUp(!isSignUp)}
             >
-              Sign In
+              {isSignUp ? "Sign In" : "Sign Up"}
             </span>
           </p>
           <div className="mt-8 pt-6 border-t border-blue-800/30">
