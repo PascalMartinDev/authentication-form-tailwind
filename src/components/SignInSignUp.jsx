@@ -12,7 +12,7 @@ const SignInSignUp = () => {
           <p className="text-blue-200 text-center mb-8">
             Join our community tday
           </p>
-          <form className="mt-8 space-y-5">
+          <form className="mt-8 space-y-5 perspective-1000">
             <div className="group">
               <input
                 type="text"
@@ -34,8 +34,12 @@ const SignInSignUp = () => {
                 className="w-full p-4 bg-blue-900/30 rounded-xl border border-blue-700/50 text-white placeholder-blue-300/50 outline-none focus:ring-2 focus:ring-yellow-400/50 focus:border-transparent transition-all"
               />
             </div>
-            
-           
+            <button className="group w-full p-4 mt-6 bg-gradient-to-r from-yellow-500 to-yellow-400 text-blue-950 rounded-xl font-bold shadow-lg hover:shadow-yellow-400/40 overflow-hidden transform transform-style-3d hover:-translate-y-0.5 hover:scale-105 hover:translate-z-20 transition-all duration-300">
+              <span className="relative z-10 pointer-events-none">
+                Create Account
+              </span>
+              <span className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-yellow-300 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></span>
+            </button>
           </form>
         </div>
       </div>
